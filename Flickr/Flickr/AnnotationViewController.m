@@ -34,7 +34,7 @@
     NSData *data = [NSData dataWithContentsOfURL:url];
     UIImage *img = [[UIImage alloc] initWithData:data];
     UIImageView *imgView = [[UIImageView alloc]initWithImage:img];
-   
+    
     self.fullscreenImg.contentSize = img.size;
     
     self.fullscreenImg.maximumZoomScale = 2.0;

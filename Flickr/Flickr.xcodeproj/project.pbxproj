@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AA9E951829CDEF00A6AB32 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01AA9E941829CDEF00A6AB32 /* avatar.jpg */; };
 		01AA9E9B182A645D00A6AB32 /* AnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AA9E9A182A645D00A6AB32 /* AnnotationViewController.m */; };
 		01DB840418100E2700E98033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB840318100E2700E98033 /* Foundation.framework */; };
 		01DB840618100E2700E98033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB840518100E2700E98033 /* CoreGraphics.framework */; };
@@ -20,23 +19,11 @@
 		01DB842318100E2700E98033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB842218100E2700E98033 /* XCTest.framework */; };
 		01DB842418100E2700E98033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB840318100E2700E98033 /* Foundation.framework */; };
 		01DB842518100E2700E98033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB840718100E2700E98033 /* UIKit.framework */; };
-		01DB842D18100E2700E98033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DB842B18100E2700E98033 /* InfoPlist.strings */; };
-		01DB842F18100E2700E98033 /* FlickrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB842E18100E2700E98033 /* FlickrTests.m */; };
 		01DB84391810FB4600E98033 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DB84381810FB4600E98033 /* MapKit.framework */; };
 		01DB843C1811326E00E98033 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB843B1811326E00E98033 /* MainViewController.m */; };
 		01DB843F181133D200E98033 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB843E181133D200E98033 /* MapViewController.m */; };
 		01DB84421811342400E98033 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB84411811342400E98033 /* ListViewController.m */; };
 		01DB84451812386900E98033 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DB84441812386900E98033 /* Annotation.m */; };
-		01FB6F7E1814BE1E0029B567 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F6C1814BE1E0029B567 /* AFHTTPRequestOperation.m */; };
-		01FB6F7F1814BE1E0029B567 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F6E1814BE1E0029B567 /* AFHTTPRequestOperationManager.m */; };
-		01FB6F801814BE1E0029B567 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F701814BE1E0029B567 /* AFHTTPSessionManager.m */; };
-		01FB6F811814BE1E0029B567 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F731814BE1E0029B567 /* AFNetworkReachabilityManager.m */; };
-		01FB6F821814BE1E0029B567 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F751814BE1E0029B567 /* AFSecurityPolicy.m */; };
-		01FB6F831814BE1E0029B567 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F771814BE1E0029B567 /* AFURLConnectionOperation.m */; };
-		01FB6F841814BE1E0029B567 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F791814BE1E0029B567 /* AFURLRequestSerialization.m */; };
-		01FB6F851814BE1E0029B567 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F7B1814BE1E0029B567 /* AFURLResponseSerialization.m */; };
-		01FB6F861814BE1E0029B567 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F7D1814BE1E0029B567 /* AFURLSessionManager.m */; };
-		01FB6F891814CCC10029B567 /* GetPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB6F881814CCC10029B567 /* GetPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01AA9E941829CDEF00A6AB32 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 		01AA9E99182A645D00A6AB32 /* AnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationViewController.h; sourceTree = "<group>"; };
 		01AA9E9A182A645D00A6AB32 /* AnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationViewController.m; sourceTree = "<group>"; };
 		01DB840018100E2700E98033 /* Flickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,9 +53,6 @@
 		01DB841B18100E2700E98033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01DB842118100E2700E98033 /* FlickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DB842218100E2700E98033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		01DB842A18100E2700E98033 /* FlickrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrTests-Info.plist"; sourceTree = "<group>"; };
-		01DB842C18100E2700E98033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		01DB842E18100E2700E98033 /* FlickrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrTests.m; sourceTree = "<group>"; };
 		01DB84381810FB4600E98033 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		01DB843A1811326E00E98033 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		01DB843B1811326E00E98033 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -79,27 +62,6 @@
 		01DB84411811342400E98033 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		01DB84431812386900E98033 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		01DB84441812386900E98033 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
-		01FB6F6B1814BE1E0029B567 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		01FB6F6C1814BE1E0029B567 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		01FB6F6D1814BE1E0029B567 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		01FB6F6E1814BE1E0029B567 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		01FB6F6F1814BE1E0029B567 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		01FB6F701814BE1E0029B567 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		01FB6F711814BE1E0029B567 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		01FB6F721814BE1E0029B567 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		01FB6F731814BE1E0029B567 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		01FB6F741814BE1E0029B567 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		01FB6F751814BE1E0029B567 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		01FB6F761814BE1E0029B567 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		01FB6F771814BE1E0029B567 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		01FB6F781814BE1E0029B567 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		01FB6F791814BE1E0029B567 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		01FB6F7A1814BE1E0029B567 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		01FB6F7B1814BE1E0029B567 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		01FB6F7C1814BE1E0029B567 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		01FB6F7D1814BE1E0029B567 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		01FB6F871814CCC10029B567 /* GetPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetPhoto.h; path = ../GetPhoto.h; sourceTree = "<group>"; };
-		01FB6F881814CCC10029B567 /* GetPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetPhoto.m; path = ../GetPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +92,7 @@
 		01DB83F718100E2700E98033 = {
 			isa = PBXGroup;
 			children = (
-				01FB6F6A1814BE1E0029B567 /* AFNetworking */,
 				01DB840918100E2700E98033 /* Flickr */,
-				01DB842818100E2700E98033 /* FlickrTests */,
 				01DB840218100E2700E98033 /* Frameworks */,
 				01DB840118100E2700E98033 /* Products */,
 			);
@@ -162,9 +122,6 @@
 		01DB840918100E2700E98033 /* Flickr */ = {
 			isa = PBXGroup;
 			children = (
-				01AA9E941829CDEF00A6AB32 /* avatar.jpg */,
-				01FB6F871814CCC10029B567 /* GetPhoto.h */,
-				01FB6F881814CCC10029B567 /* GetPhoto.m */,
 				01DB841218100E2700E98033 /* AppDelegate.h */,
 				01DB841318100E2700E98033 /* AppDelegate.m */,
 				01DB841518100E2700E98033 /* Main.storyboard */,
@@ -193,51 +150,6 @@
 				01DB841118100E2700E98033 /* Flickr-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		01DB842818100E2700E98033 /* FlickrTests */ = {
-			isa = PBXGroup;
-			children = (
-				01DB842E18100E2700E98033 /* FlickrTests.m */,
-				01DB842918100E2700E98033 /* Supporting Files */,
-			);
-			path = FlickrTests;
-			sourceTree = "<group>";
-		};
-		01DB842918100E2700E98033 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				01DB842A18100E2700E98033 /* FlickrTests-Info.plist */,
-				01DB842B18100E2700E98033 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		01FB6F6A1814BE1E0029B567 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				01FB6F6B1814BE1E0029B567 /* AFHTTPRequestOperation.h */,
-				01FB6F6C1814BE1E0029B567 /* AFHTTPRequestOperation.m */,
-				01FB6F6D1814BE1E0029B567 /* AFHTTPRequestOperationManager.h */,
-				01FB6F6E1814BE1E0029B567 /* AFHTTPRequestOperationManager.m */,
-				01FB6F6F1814BE1E0029B567 /* AFHTTPSessionManager.h */,
-				01FB6F701814BE1E0029B567 /* AFHTTPSessionManager.m */,
-				01FB6F711814BE1E0029B567 /* AFNetworking.h */,
-				01FB6F721814BE1E0029B567 /* AFNetworkReachabilityManager.h */,
-				01FB6F731814BE1E0029B567 /* AFNetworkReachabilityManager.m */,
-				01FB6F741814BE1E0029B567 /* AFSecurityPolicy.h */,
-				01FB6F751814BE1E0029B567 /* AFSecurityPolicy.m */,
-				01FB6F761814BE1E0029B567 /* AFURLConnectionOperation.h */,
-				01FB6F771814BE1E0029B567 /* AFURLConnectionOperation.m */,
-				01FB6F781814BE1E0029B567 /* AFURLRequestSerialization.h */,
-				01FB6F791814BE1E0029B567 /* AFURLRequestSerialization.m */,
-				01FB6F7A1814BE1E0029B567 /* AFURLResponseSerialization.h */,
-				01FB6F7B1814BE1E0029B567 /* AFURLResponseSerialization.m */,
-				01FB6F7C1814BE1E0029B567 /* AFURLSessionManager.h */,
-				01FB6F7D1814BE1E0029B567 /* AFURLSessionManager.m */,
-			);
-			name = AFNetworking;
-			path = "../../../Downloads/AFNetworking-master/AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AA9E951829CDEF00A6AB32 /* avatar.jpg in Resources */,
 				01DB841C18100E2700E98033 /* Images.xcassets in Resources */,
 				01DB840E18100E2700E98033 /* InfoPlist.strings in Resources */,
 				01DB841718100E2700E98033 /* Main.storyboard in Resources */,
@@ -327,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01DB842D18100E2700E98033 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,23 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01FB6F861814BE1E0029B567 /* AFURLSessionManager.m in Sources */,
 				01DB84451812386900E98033 /* Annotation.m in Sources */,
 				01DB841418100E2700E98033 /* AppDelegate.m in Sources */,
-				01FB6F811814BE1E0029B567 /* AFNetworkReachabilityManager.m in Sources */,
 				01DB84421811342400E98033 /* ListViewController.m in Sources */,
-				01FB6F831814BE1E0029B567 /* AFURLConnectionOperation.m in Sources */,
-				01FB6F801814BE1E0029B567 /* AFHTTPSessionManager.m in Sources */,
-				01FB6F841814BE1E0029B567 /* AFURLRequestSerialization.m in Sources */,
 				01DB843F181133D200E98033 /* MapViewController.m in Sources */,
 				01AA9E9B182A645D00A6AB32 /* AnnotationViewController.m in Sources */,
 				01DB841018100E2700E98033 /* main.m in Sources */,
 				01DB843C1811326E00E98033 /* MainViewController.m in Sources */,
-				01FB6F7F1814BE1E0029B567 /* AFHTTPRequestOperationManager.m in Sources */,
-				01FB6F821814BE1E0029B567 /* AFSecurityPolicy.m in Sources */,
-				01FB6F851814BE1E0029B567 /* AFURLResponseSerialization.m in Sources */,
-				01FB6F7E1814BE1E0029B567 /* AFHTTPRequestOperation.m in Sources */,
-				01FB6F891814CCC10029B567 /* GetPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01DB842F18100E2700E98033 /* FlickrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,14 +290,6 @@
 				01DB841618100E2700E98033 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		01DB842B18100E2700E98033 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01DB842C18100E2700E98033 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

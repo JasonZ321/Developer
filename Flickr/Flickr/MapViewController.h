@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import "AFHTTPRequestOperation.h"
+
 
 #import "Annotation.h"
-#import "AFNetworking.h"
-#import "AFHTTPRequestOperationManager.h"
+
 @interface MapViewController : UIViewController<MKMapViewDelegate>
 @property (strong, nonatomic) IBOutlet UILabel *label;
 

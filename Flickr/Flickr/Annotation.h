@@ -9,13 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 @interface Annotation : NSObject<MKAnnotation>
-@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate; // location
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *subtitle;
-@property (nonatomic, copy) NSString *thumImage;
-@property (nonatomic, copy) NSString *bigImage;
-@property (nonatomic, copy) NSString *address;
-@property (nonatomic, copy) NSString *width;
-@property (nonatomic, copy) NSString *height;
-@property (nonatomic, strong) NSData *thumImageData;
+@property (nonatomic, copy) NSString *thumImage;  // thumb image url string
+@property (nonatomic, copy) NSString *bigImage;   // original image url string
+@property (nonatomic, copy) NSString *address;    // where photo taken
+@property (nonatomic, strong) NSData *thumImageData; // thumb image's data
 @end

@@ -6,45 +6,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Flickr/MapViewController.h"
-            timestampString = "404014601.892233"
+            filePath = "Flickr/MapViewController.m"
+            timestampString = "405491301.084211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MapViewController label]"
-                  moduleName = "Flickr"
-                  urlString = "file://localhost/Users/jasonzhou/Documents/Developer/Flickr/Flickr/MapViewController.h"
-                  timestampString = "405489682.839249"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MapViewController setLabel:]"
-                  moduleName = "Flickr"
-                  urlString = "file://localhost/Users/jasonzhou/Documents/Developer/Flickr/Flickr/MapViewController.h"
-                  timestampString = "405489682.839609"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-getPhotoWithId:andTitle:"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -54,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Flickr/MapViewController.m"
-            timestampString = "405432313.40654"
+            timestampString = "405491301.084211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "-getPhotoWithId:andTitle:"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-setPhotoForAnnotation:WithId:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
