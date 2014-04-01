@@ -1,17 +1,15 @@
-//
-//  NumStack.h
-//  PostFix
-//
-//  Created by Jason Zhou on 13-8-27.
-//  Copyright (c) 2013年 Jiasheng Zhou. All rights reserved.
-//
+/*
+ Student Name: Jiasheng Zhou
+ Student Id: 4022828
+ */
 
 #import <Foundation/Foundation.h>
 @protocol StackDelegate<NSObject>
 @required
--(void)pushToScreen:(NSNumber *)aNum;
--(NSNumber *)popFromScreen:(NSNumber *)aNum;
-
+-(void)pushToScreen;
+-(void)popToScreen:(NSNumber *)aNum;
+-(void)divideByZero;
+-(void)clearStack;
 @end
 
 @interface NumStack:NSObject{
@@ -20,6 +18,7 @@
 @property (strong,nonatomic) id<StackDelegate>delegate;
 @property (strong,nonatomic)NSMutableArray *numbers;
 @property (nonatomic)int count;
+@property (nonatomic)int index;
 
 -(void)push:(NSNumber *)aNum;
 -(NSNumber*)pop: (NSString *)operation;

@@ -1,10 +1,7 @@
-//
-//  PostFixViewController.h
-//  PostFix
-//
-//  Created by Jason Zhou on 13-8-27.
-//  Copyright (c) 2013年 Jiasheng Zhou. All rights reserved.
-//
+/*
+ Student Name: Jiasheng Zhou
+ Student Id: 4022828
+ */
 
 #import <UIKit/UIKit.h>
 #import "NumStack.h"

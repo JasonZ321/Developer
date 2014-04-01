@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0132946118D1A3D800790746 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132946018D1A3D800790746 /* CardGameViewController.m */; };
+		013294A718D1AD0100790746 /* JasonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013294A618D1AD0100790746 /* JasonAppDelegate.m */; };
+		013294A818D1B0DA00790746 /* JasonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013294A618D1AD0100790746 /* JasonAppDelegate.m */; };
+		01BE21E318D12AED00CCC6FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BE21E218D12AED00CCC6FA /* Foundation.framework */; };
+		01BE21E518D12AED00CCC6FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BE21E418D12AED00CCC6FA /* CoreGraphics.framework */; };
+		01BE21E718D12AED00CCC6FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BE21E618D12AED00CCC6FA /* UIKit.framework */; };
+		01BE21ED18D12AED00CCC6FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01BE21EB18D12AED00CCC6FA /* InfoPlist.strings */; };
+		01BE21EF18D12AED00CCC6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE21EE18D12AED00CCC6FA /* main.m */; };
+		01BE21F618D12AED00CCC6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BE21F418D12AED00CCC6FA /* Main.storyboard */; };
+		01BE21FB18D12AED00CCC6FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BE21FA18D12AED00CCC6FA /* Images.xcassets */; };
+		01BE220218D12AED00CCC6FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BE220118D12AED00CCC6FA /* XCTest.framework */; };
+		01BE220318D12AED00CCC6FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BE21E218D12AED00CCC6FA /* Foundation.framework */; };
+		01BE220418D12AED00CCC6FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BE21E618D12AED00CCC6FA /* UIKit.framework */; };
+		01BE220C18D12AED00CCC6FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01BE220A18D12AED00CCC6FA /* InfoPlist.strings */; };
+		01BE220E18D12AED00CCC6FA /* stanford2014Assignments1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE220D18D12AED00CCC6FA /* stanford2014Assignments1Tests.m */; };
+		01BE221918D12C2F00CCC6FA /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE221818D12C2F00CCC6FA /* Card.m */; };
+		01BE221C18D12DD500CCC6FA /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE221B18D12DD500CCC6FA /* Deck.m */; };
+		01BE221F18D12DEC00CCC6FA /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE221E18D12DEC00CCC6FA /* PlayingCard.m */; };
+		01BE222218D12E0200CCC6FA /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE222118D12E0200CCC6FA /* PlayingCardDeck.m */; };
+		01F2D83018D9D0A5007E5230 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F2D82F18D9D0A5007E5230 /* CardMatchingGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BE220518D12AED00CCC6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BE21D718D12AED00CCC6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BE21DE18D12AED00CCC6FA;
+			remoteInfo = stanford2014Assignments1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0132945F18D1A3D800790746 /* CardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		0132946018D1A3D800790746 /* CardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		013294A518D1ACE600790746 /* JasonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JasonAppDelegate.h; sourceTree = "<group>"; };
+		013294A618D1AD0100790746 /* JasonAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasonAppDelegate.m; sourceTree = "<group>"; };
+		01BE21DF18D12AED00CCC6FA /* stanford2014Assignments1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanford2014Assignments1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BE21E218D12AED00CCC6FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01BE21E418D12AED00CCC6FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01BE21E618D12AED00CCC6FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01BE21EA18D12AED00CCC6FA /* stanford2014Assignments1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stanford2014Assignments1-Info.plist"; sourceTree = "<group>"; };
+		01BE21EC18D12AED00CCC6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01BE21EE18D12AED00CCC6FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BE21F018D12AED00CCC6FA /* stanford2014Assignments1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stanford2014Assignments1-Prefix.pch"; sourceTree = "<group>"; };
+		01BE21F518D12AED00CCC6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BE21FA18D12AED00CCC6FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01BE220018D12AED00CCC6FA /* stanford2014Assignments1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stanford2014Assignments1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BE220118D12AED00CCC6FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		01BE220918D12AED00CCC6FA /* stanford2014Assignments1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stanford2014Assignments1Tests-Info.plist"; sourceTree = "<group>"; };
+		01BE220B18D12AED00CCC6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01BE220D18D12AED00CCC6FA /* stanford2014Assignments1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stanford2014Assignments1Tests.m; sourceTree = "<group>"; };
+		01BE221718D12C2F00CCC6FA /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		01BE221818D12C2F00CCC6FA /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		01BE221A18D12DD500CCC6FA /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		01BE221B18D12DD500CCC6FA /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		01BE221D18D12DEC00CCC6FA /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		01BE221E18D12DEC00CCC6FA /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		01BE222018D12E0200CCC6FA /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		01BE222118D12E0200CCC6FA /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		01F2D82E18D9D0A5007E5230 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = ../CardMatchingGame.h; sourceTree = "<group>"; };
+		01F2D82F18D9D0A5007E5230 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = ../CardMatchingGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BE21DC18D12AED00CCC6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BE21E518D12AED00CCC6FA /* CoreGraphics.framework in Frameworks */,
+				01BE21E718D12AED00CCC6FA /* UIKit.framework in Frameworks */,
+				01BE21E318D12AED00CCC6FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BE21FD18D12AED00CCC6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BE220218D12AED00CCC6FA /* XCTest.framework in Frameworks */,
+				01BE220418D12AED00CCC6FA /* UIKit.framework in Frameworks */,
+				01BE220318D12AED00CCC6FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BE21D618D12AED00CCC6FA = {
+			isa = PBXGroup;
+			children = (
+				01BE21E818D12AED00CCC6FA /* stanford2014Assignments1 */,
+				01BE220718D12AED00CCC6FA /* stanford2014Assignments1Tests */,
+				01BE21E118D12AED00CCC6FA /* Frameworks */,
+				01BE21E018D12AED00CCC6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01BE21E018D12AED00CCC6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BE21DF18D12AED00CCC6FA /* stanford2014Assignments1.app */,
+				01BE220018D12AED00CCC6FA /* stanford2014Assignments1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BE21E118D12AED00CCC6FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BE21E218D12AED00CCC6FA /* Foundation.framework */,
+				01BE21E418D12AED00CCC6FA /* CoreGraphics.framework */,
+				01BE21E618D12AED00CCC6FA /* UIKit.framework */,
+				01BE220118D12AED00CCC6FA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01BE21E818D12AED00CCC6FA /* stanford2014Assignments1 */ = {
+			isa = PBXGroup;
+			children = (
+				01F2D82E18D9D0A5007E5230 /* CardMatchingGame.h */,
+				01F2D82F18D9D0A5007E5230 /* CardMatchingGame.m */,
+				01BE21F418D12AED00CCC6FA /* Main.storyboard */,
+				01BE21FA18D12AED00CCC6FA /* Images.xcassets */,
+				01BE21E918D12AED00CCC6FA /* Supporting Files */,
+				01BE221718D12C2F00CCC6FA /* Card.h */,
+				01BE221818D12C2F00CCC6FA /* Card.m */,
+				01BE221A18D12DD500CCC6FA /* Deck.h */,
+				01BE221B18D12DD500CCC6FA /* Deck.m */,
+				01BE221D18D12DEC00CCC6FA /* PlayingCard.h */,
+				01BE221E18D12DEC00CCC6FA /* PlayingCard.m */,
+				01BE222018D12E0200CCC6FA /* PlayingCardDeck.h */,
+				01BE222118D12E0200CCC6FA /* PlayingCardDeck.m */,
+				0132945F18D1A3D800790746 /* CardGameViewController.h */,
+				0132946018D1A3D800790746 /* CardGameViewController.m */,
+			);
+			path = stanford2014Assignments1;
+			sourceTree = "<group>";
+		};
+		01BE21E918D12AED00CCC6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01BE21EA18D12AED00CCC6FA /* stanford2014Assignments1-Info.plist */,
+				01BE21EB18D12AED00CCC6FA /* InfoPlist.strings */,
+				01BE21EE18D12AED00CCC6FA /* main.m */,
+				01BE21F018D12AED00CCC6FA /* stanford2014Assignments1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01BE220718D12AED00CCC6FA /* stanford2014Assignments1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				01BE220D18D12AED00CCC6FA /* stanford2014Assignments1Tests.m */,
+				01BE220818D12AED00CCC6FA /* Supporting Files */,
+			);
+			path = stanford2014Assignments1Tests;
+			sourceTree = "<group>";
+		};
+		01BE220818D12AED00CCC6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013294A618D1AD0100790746 /* JasonAppDelegate.m */,
+				013294A518D1ACE600790746 /* JasonAppDelegate.h */,
+				01BE220918D12AED00CCC6FA /* stanford2014Assignments1Tests-Info.plist */,
+				01BE220A18D12AED00CCC6FA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BE21DE18D12AED00CCC6FA /* stanford2014Assignments1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BE221118D12AED00CCC6FA /* Build configuration list for PBXNativeTarget "stanford2014Assignments1" */;
+			buildPhases = (
+				01BE21DB18D12AED00CCC6FA /* Sources */,
+				01BE21DC18D12AED00CCC6FA /* Frameworks */,
+				01BE21DD18D12AED00CCC6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stanford2014Assignments1;
+			productName = stanford2014Assignments1;
+			productReference = 01BE21DF18D12AED00CCC6FA /* stanford2014Assignments1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BE21FF18D12AED00CCC6FA /* stanford2014Assignments1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BE221418D12AED00CCC6FA /* Build configuration list for PBXNativeTarget "stanford2014Assignments1Tests" */;
+			buildPhases = (
+				01BE21FC18D12AED00CCC6FA /* Sources */,
+				01BE21FD18D12AED00CCC6FA /* Frameworks */,
+				01BE21FE18D12AED00CCC6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BE220618D12AED00CCC6FA /* PBXTargetDependency */,
+			);
+			name = stanford2014Assignments1Tests;
+			productName = stanford2014Assignments1Tests;
+			productReference = 01BE220018D12AED00CCC6FA /* stanford2014Assignments1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BE21D718D12AED00CCC6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jason;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jiasheng Zhou";
+				TargetAttributes = {
+					01BE21FF18D12AED00CCC6FA = {
+						TestTargetID = 01BE21DE18D12AED00CCC6FA;
+					};
+				};
+			};
+			buildConfigurationList = 01BE21DA18D12AED00CCC6FA /* Build configuration list for PBXProject "stanford2014Assignments1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BE21D618D12AED00CCC6FA;
+			productRefGroup = 01BE21E018D12AED00CCC6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BE21DE18D12AED00CCC6FA /* stanford2014Assignments1 */,
+				01BE21FF18D12AED00CCC6FA /* stanford2014Assignments1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BE21DD18D12AED00CCC6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BE21FB18D12AED00CCC6FA /* Images.xcassets in Resources */,
+				01BE21ED18D12AED00CCC6FA /* InfoPlist.strings in Resources */,
+				01BE21F618D12AED00CCC6FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BE21FE18D12AED00CCC6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BE220C18D12AED00CCC6FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BE21DB18D12AED00CCC6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013294A818D1B0DA00790746 /* JasonAppDelegate.m in Sources */,
+				01BE222218D12E0200CCC6FA /* PlayingCardDeck.m in Sources */,
+				01BE21EF18D12AED00CCC6FA /* main.m in Sources */,
+				01BE221C18D12DD500CCC6FA /* Deck.m in Sources */,
+				01F2D83018D9D0A5007E5230 /* CardMatchingGame.m in Sources */,
+				01BE221F18D12DEC00CCC6FA /* PlayingCard.m in Sources */,
+				0132946118D1A3D800790746 /* CardGameViewController.m in Sources */,
+				01BE221918D12C2F00CCC6FA /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BE21FC18D12AED00CCC6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013294A718D1AD0100790746 /* JasonAppDelegate.m in Sources */,
+				01BE220E18D12AED00CCC6FA /* stanford2014Assignments1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BE220618D12AED00CCC6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BE21DE18D12AED00CCC6FA /* stanford2014Assignments1 */;
+			targetProxy = 01BE220518D12AED00CCC6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BE21EB18D12AED00CCC6FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BE21EC18D12AED00CCC6FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01BE21F418D12AED00CCC6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BE21F518D12AED00CCC6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BE220A18D12AED00CCC6FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BE220B18D12AED00CCC6FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BE220F18D12AED00CCC6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01BE221018D12AED00CCC6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BE221218D12AED00CCC6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanford2014Assignments1/stanford2014Assignments1-Prefix.pch";
+				INFOPLIST_FILE = "stanford2014Assignments1/stanford2014Assignments1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01BE221318D12AED00CCC6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanford2014Assignments1/stanford2014Assignments1-Prefix.pch";
+				INFOPLIST_FILE = "stanford2014Assignments1/stanford2014Assignments1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01BE221518D12AED00CCC6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stanford2014Assignments1.app/stanford2014Assignments1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanford2014Assignments1/stanford2014Assignments1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "stanford2014Assignments1Tests/stanford2014Assignments1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		01BE221618D12AED00CCC6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stanford2014Assignments1.app/stanford2014Assignments1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanford2014Assignments1/stanford2014Assignments1-Prefix.pch";
+				INFOPLIST_FILE = "stanford2014Assignments1Tests/stanford2014Assignments1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BE21DA18D12AED00CCC6FA /* Build configuration list for PBXProject "stanford2014Assignments1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BE220F18D12AED00CCC6FA /* Debug */,
+				01BE221018D12AED00CCC6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BE221118D12AED00CCC6FA /* Build configuration list for PBXNativeTarget "stanford2014Assignments1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BE221218D12AED00CCC6FA /* Debug */,
+				01BE221318D12AED00CCC6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BE221418D12AED00CCC6FA /* Build configuration list for PBXNativeTarget "stanford2014Assignments1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BE221518D12AED00CCC6FA /* Debug */,
+				01BE221618D12AED00CCC6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01BE21D718D12AED00CCC6FA /* Project object */;
+}

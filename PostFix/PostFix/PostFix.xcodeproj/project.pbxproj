@@ -339,6 +339,7 @@
 				01740B1317CCE08900F9330F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
